@@ -1,3 +1,4 @@
+// line break between import and functions
 import { useEffect, useState } from "react";
 
 export default function Counter() {
@@ -16,6 +17,7 @@ export default function Counter() {
     setCount(count - 1);
   };
 
+  // this is unnecessary; just use setCount(0) 
   const ResetButton = () => {
     setCount(0);
   };
