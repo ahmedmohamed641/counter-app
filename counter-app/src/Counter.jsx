@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 export default function Counter() {
   const [count, setCount] = useState(0);
 
@@ -16,7 +17,7 @@ export default function Counter() {
   };
 
   const ResetButton = () => {
-    setCount(count - count);
+    setCount(0);
   };
 
   return (
